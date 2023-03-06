@@ -22,9 +22,9 @@ a{outline:none; text-decoration:none;}
 .fl_right, .imgr{float:right;}
 
 img{display:block; margin:0; padding:0; border:0;}
-.imgl, .imgr{border:1px solid #999999; padding:5px;}
-.imgl{margin:0 8px 8px 0; clear:left;}
-.imgr{margin:0 0 8px 8px; clear:right;}
+.imgl, .imgr{border:1px solid #999999; padding:0px;}
+.imgl{margin:0 0px 0px 0; clear:left;}
+.imgr{margin:0 0 0px 0px; clear:right;}
 
 /* ----------------------------------------------Wrapper------------------------------------- */
 
