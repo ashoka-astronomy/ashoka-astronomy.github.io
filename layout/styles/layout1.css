@@ -1,0 +1,67 @@
+.header {
+  padding-top: 20px;
+  padding-bottom: 20px;
+  padding-left: 5px;
+  text-align: left; /* left align the text */
+  line-height:9px;
+  background: #333333; /* dark gray background */
+  color: rgb(255, 171, 23); /* yellow text color */
+}
+
+/* Increase the font size of the <h1> element */
+.header h1 {
+  font-size: 40px;
+  align-self: center;
+}
+
+.header p {
+  font-size: 20px;
+  padding-top: 5px;
+  padding-left: 167px
+}
+
+.header img {
+  align-self: center;
+  float: left;
+  width: 100px;
+  height: 100px;
+  padding-left: 35px/*2.4px 1% 0 17px*/;
+  padding-bottom;
+  padding-right: 30px;
+}
+
+
+/* Style the header links */
+.header a {
+  float: left;
+  color: rgb(231, 33, 255);
+  text-align: center;
+  padding: 20px;
+  text-decoration: none;
+  font-size: 20px; 
+  line-height: 0px;
+  border-radius: 4px;
+}
+
+/* Style the logo link (notice that we set the same value of line-height and font-size to prevent the header to increase when the font gets bigger */
+.header a.logo {
+  font-size: 30px;
+  font-weight: bold;
+}
+
+/* Change the background color on mouse-over */
+.header a:hover {
+  background-color: #060606;
+  color: rgb(231, 33, 255);
+}
+
+/* Style the active/current link*/
+.header a.active {
+  background-color: dodgerblue;
+  color: white;
+}
+
+/* Float the link section to the right */
+.header-right {
+  float: right;
+}

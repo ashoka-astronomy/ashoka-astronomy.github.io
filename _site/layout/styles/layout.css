@@ -1,61 +1,130 @@
-.header {
-  padding-top: 20px;
-  padding-bottom: 20px;
-  padding-left: 5px;
-  text-align: left; /* left align the text */
-  line-height:9px;
-  background: #333333; /* dark gray background */
-  color: rgb(255, 171, 23); /* yellow text color */
+
+header img {
+    height: 80px;
+    margin-left: 40px;
 }
 
-/* Increase the font size of the <h1> element */
-.header h1 {
-  padding-top: px;
-  font-size: 40px;
-  align-self: center;
+header {
+    background-color: white;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    height: 100px;
+    display: flex;
+    align-items: center;
+    box-shadow: 0 0 25px 0 black;
 }
 
-.header p {
-  font-size: 20px;
-  padding-top: 5px;
-  padding-left: 167px
+header * {
+    display: inline;
 }
 
-.header img {
-  align-self: center;
-  float: left;
-  width: 100px;
-  height: 100px;
-  padding-left: 35px/*2.4px 1% 0 17px*/;
-  padding-bottom;
-  padding-right: 30px;
+header li {
+    margin: 20px;
 }
 
+header li a {
+    color: black;
+    text-decoration: none;
+}
 
-/* Style the top navigation bar */
-.navbar {
-  overflow: hidden; /* Hide overflow */
-  background-color: #333; /* Dark background color */
+main {
+    color: white;
+}
+
+.hero {
+    /* Sizing */
+    width: 100vw;
+    height: 100vh;
+    
+    /* Flexbox stuff */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    /*text styles*/
+    text-align: center;
+    color: white;
+
+    /*Background styles*/
+    background-image: linear-gradient(rgba(0, 0, 0, 0.2),rgba(0, 0, 0, 0.2)), url("../../images/demo/startrail.jpeg");
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+.hero h1 {
+    /* Text styles */
+    font-size: 5em;
+
+    /* Margins */
+    margin-top: 0;
+    margin-bottom: 0.5em;
+}
+
+.hero .btn {
+    /* Positioning and sizing */
+    display: block;
+    width: 200px;
+
+    /* Padding and margins */
+    padding: 1em;
+    margin-top: 50px;
+    margin-left: auto;
+    margin-right: auto;
+
+    /* Text styles */
+    color: white;
+    text-decoration: none;
+    font-size: 1.5em;
+    
+    /* Border styles */
+    border: 3px solid white;
+    border-radius: 20px;
+}
+
+body {
+    height: 100vh;
+    background-image: url("../../images/demo/DSC_0277.JPG");
+    background-size: cover;
+    font-family: sans-serif;
+    margin-top: 100px;
+}
+
+.box-main {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            color: black;
+            max-width: 70%;
+            margin: auto;
+            height: 80%;
+        }
+
+.welcome{padding:20px 0 0 0;}
+
+.fl_left{
+  display:block; 
+  float:left; 
+  width:575px; 
+  height:300px;
+}
+
+.fl_right{
+  display: block;
   float: right;
+  width:360px; 
+  height:280px; 
+  padding:10px; 
+  color:#333333; 
+  background-color:#FDC609;
 }
 
-/* Style the navigation bar links */
-.navbar a {
-  float: left; /* Make sure that the links stay side-by-side */
-  display: block; /* Change the display to block, for responsive reasons (see below) */
-  color: white; /* White text color */
-  text-align: center; /* Center the text */
-  padding: 14px 20px; /* Add some padding */
-  text-decoration: none; /* Remove underline */
-}
 
-/* Right-aligned link */
-.navbar a.right {
-  float: right; /* Float a link to the right */
-}
 
-/* Change color on hover/mouse-over */
-.navbar a:hover {
-  background-color: #ddd; /* Grey background color */
-  color: black; /* Black text color */
-}
+
+
+
+
