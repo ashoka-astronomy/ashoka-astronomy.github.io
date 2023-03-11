@@ -5,7 +5,7 @@ header img {
 }
 
 header {
-    background-color: white;
+    background-color: rgb(30,30,30);
     position: fixed;
     top: 0;
     left: 0;
@@ -25,7 +25,7 @@ header li {
 }
 
 header li a {
-    color: black;
+    color: rgb(255,171,23);
     text-decoration: none;
 }
 
@@ -48,7 +48,7 @@ main {
     color: white;
 
     /*Background styles*/
-    background-image: linear-gradient(rgba(0, 0, 0, 0.2),rgba(0, 0, 0, 0.2)), url("../../images/demo/startrail.jpeg");
+    background-image: linear-gradient(rgba(0, 0, 0, 0.2),rgba(0, 0, 0, 0.2)), url("../../images/demo/startrail.jpg");
     background-size: cover;
     background-position: center center;
     background-repeat: no-repeat;
@@ -119,7 +119,7 @@ body {
   height:280px; 
   padding:10px; 
   color:#333333; 
-  background-color:#FDC609;
+  background-color:rgb(255,171,23);
 }
 
 
